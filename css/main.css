@@ -1,0 +1,78 @@
+/*Topography*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 0.875rem;
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  margin: 40px auto;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/*Header*/
+
+.logo {
+  float: left;
+  font-size: 2.5rem;
+}
+
+.navigation {
+  float: right;
+  margin-bottom: 40px;
+}
+
+.navigation-item {
+  display: inline-block;
+  font-size: 2.5rem;
+  padding-left: 3rem;
+}
+
+.header {
+  clear:both;
+  margin: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+/*Main content*/
+
+.main-article {
+  text-align: justify;
+}
+
+.profile {
+  margin-bottom: 40px;
+  text-align: center;
+  float: left;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.grid {
+  width: 100%;
+  display: block;
+}
