@@ -1,44 +1,37 @@
-<!--
-Design requirements:
-- Navbar
-- Header
-- Picture
-- Name
-- About me/Biography
-- Links to:
-- LinkedIn
-- GitHub
-- CodeWars
-- Twitter
-- Facebook
-- Codepen
-- Portfolio - projects etc
-- Blog posts
-- Footer
--->
 <html>
 <head>
-  <!-- <script src="https://use.fontawesome.com/dab6567ebf.js"></script> -->
+  <script src="https://use.fontawesome.com/dab6567ebf.js"></script>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css" media="screen" title="no title">
   <link rel="stylesheet" type="text/css" href="css/personal-page.css">
+  <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
+<body>
 
-<nav class="col-12">
-  <h1>Nomastew Blog</h1>
-  <ul>
+
+  <nav  class="col-12">
+    <p class="logo">LOGO</h1>
+      <ul class="navigation">
+        <li class="navigation-item">HOME</li>
+        <li class="navigation-item">ABOUT</li>
+        <li class="navigation-item">PROJECTS</li>
+      </ul>
+    </nav>
+    <!--<nav class="col-12">
+    <ul>
     <li><a href="">Home</a></li>
     <li><a href="#about-me">About</a></li>
     <li><a href="#follow-me">Follow</a></li>
     <li><a href="#blog-posts">Blog</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
   </ul>
-</nav>
+</nav>-->
 
 <article>
 
   <header class="col-12">
-    <h2>Example name</h2>
+    <h1 class="title">Example name</h1>
   </header>
 
   <section id="about-me" class="col-12">
@@ -48,9 +41,9 @@ Design requirements:
     <p>Aenean quam ligula, sagittis id dignissim at, pretium ut enim. Vestibulum interdum tristique urna, quis ultrices metus rutrum et. Nunc blandit in libero sit amet condimentum. Morbi pellentesque malesuada porttitor. Vestibulum vel imperdiet dolor. Aliquam iaculis diam ac libero dapibus condimentum vitae sed diam. Phasellus volutpat auctor malesuada. Nullam sit amet nisi magna. Pellentesque fringilla accumsan nunc ut facilisis. Aenean at sem pulvinar, ultricies velit scelerisque, vulputate mauris.</p>
   </section>
 
-  <section id="follow-me">
+  <section id="follow-me" class="col-12" >
     <a name="follow-me"></a>
-    <h3>Follow [name]</h3>
+    <h2>Follow [name]</h2>
     <ul>
       <li><a href="url"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
       <li><a href="url"><i class="fa fa-github" aria-hidden="true"></i></a></li>
@@ -63,26 +56,26 @@ Design requirements:
 
   <section id="blog-posts">
     <a name="blog-posts"></a>
-    <h3>Posts by [name]</h3>
-    <div class="hti col-6">
+    <h2>Posts by [name]</h2>
+    <div class="hti col-4">
       <h4>Blog 1</h4>
       <img src="images/placeholder-image.jpg">
       <p>Aenean quam ligula, sagittis id dignissim at, pretium ut enim.</p>
       <a href="kjhsdkfjhsdf">Read more</a>
     </div>
-    <div class="hti col-6">
+    <div class="hti col-4">
       <h4>Blog 2</h4>
       <img src="images/placeholder-image.jpg">
       <p>Aenean quam ligula, sagittis id dignissim at, pretium ut enim.</p>
       <a href="kjhsdkfjhsdf">Read more</a>
     </div>
-    <div class="hti col-6">
+    <div class="hti col-4">
       <h4>Blog 3</h4>
       <img src="images/placeholder-image.jpg">
       <p>Aenean quam ligula, sagittis id dignissim at, pretium ut enim.</p>
       <a href="kjhsdkfjhsdf">Read more</a>
     </div>
-    <div class="hti col-6">
+    <div class="hti col-4">
       <h4>Blog 4</h4>
       <img src="images/placeholder-image.jpg">
       <p>Aenean quam ligula, sagittis id dignissim at, pretium ut enim.</p>
@@ -90,12 +83,13 @@ Design requirements:
     </div>
   </section>
 
-  <section id="portfolio">
+  <section class="col-12" id="portfolio">
     <a name="portfolio"></a>
-    <h3>[name]'s portfolio</h3>
+    <h2>[name]'s portfolio</h2>
   </section>
 
 </article>
 
 <footer class="col-12">Nomastew 2016</footer>
+</body>
 </html>

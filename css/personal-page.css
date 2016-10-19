@@ -1,4 +1,4 @@
-html {
+/*html {
   font-size: 100%;
   text-align: center;
   box-sizing: border-box;
@@ -7,9 +7,9 @@ html {
 body {
   background-color: gray;
   font-family: sans-serif;
-}
+}*/
 
-nav {
+/*nav {
   background-color: black;
   color: white;
   width: 100%;
@@ -43,13 +43,17 @@ nav ul li a:hover {
   text-decoration: none !important;
   cursor: pointer;
   color: inherit;
-}
-
-header h1 {
+}*/
+/*header {
+  clear:both;
+  margin: 20px;
+  text-align: center;
+}*/
+/*header h1 {
   font-size: 3.0rem;
-}
+}*/
 
-article {
+/*article {
   padding: 2rem;
   background-color: white;
 }
@@ -63,7 +67,7 @@ section p {
   font-size: 1.6rem;
   line-height: 1.5;
   margin: 1rem 0;
-}
+}*/
 
 .hti {
   float: left;

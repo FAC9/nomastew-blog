@@ -45,7 +45,7 @@ h3 {
   padding-left: 3rem;
 }
 
-.header {
+header {
   clear:both;
   margin: 20px;
   text-align: center;
@@ -84,8 +84,10 @@ footer {
   padding: 1rem;
 }
 
-
-
 .fac-icon {
   height: 1.5rem;
+}
+
+.hti img {
+  max-width: 100%;
 }
