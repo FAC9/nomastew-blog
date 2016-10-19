@@ -7,8 +7,6 @@ html {
 body {
   font-size: 0.875rem;
   font-family: 'Open Sans', sans-serif;
-  width: 80%;
-  margin: 40px auto;
   line-height: normal;
 }
 
@@ -29,25 +27,40 @@ h3 {
 
 /*Header*/
 
-.logo {
-  float: left;
-  font-size: 2.5rem;
+.container-80 {
+  width: 80%;
+  margin: auto;
 }
 
 .navigation {
+  background-color: rgb(227, 227, 227);
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  float: left;
+  font-size: 1.3rem;
+}
+
+.menus {
   float: right;
-  margin-bottom: 40px;
 }
 
 .navigation-item {
   display: inline-block;
-  font-size: 2.5rem;
-  padding-left: 3rem;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+}
+
+article {
+  padding-top: 100px;
 }
 
 header {
   clear:both;
-  margin: 20px;
+  margin: 20px 0;
   text-align: center;
 }
 
