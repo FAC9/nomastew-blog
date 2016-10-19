@@ -11,21 +11,37 @@ body {
   line-height: normal;
 }
 
+article{
+  padding-bottom: 2rem;
+    padding-top: 5rem;
+}
+
+section{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+div{
+  padding-bottom: 1rem;
+}
 h1 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: bold;
+  text-align: center;
 }
 
 h2 {
-  font-size: 1.125rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
-
+p{
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
 /*Header*/
 
 .container-80 {
@@ -55,13 +71,12 @@ h3 {
   padding-left: 0.5rem;
 }
 
-article {
-  padding-top: 100px;
-}
+
 
 header {
   clear:both;
-  margin: 20px 0;
+  /*margin: 20px; */
+
   text-align: center;
 }
 
