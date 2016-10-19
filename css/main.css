@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  position: relative;
   font-size: 0.875rem;
   font-family: 'Open Sans', sans-serif;
   line-height: normal;
@@ -19,9 +20,9 @@ section{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-div{
+/*div{
   padding-bottom: 1rem;
-}
+}*/
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -37,6 +38,7 @@ h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 p{
   font-size: 1.25rem;
   line-height: 1.4;
@@ -100,23 +102,42 @@ header {
   width: 100%;
 }
 
-.grid {
-  width: 100%;
-  display: block;
+.fac-blurb {
+  margin-bottom: 3rem;
 }
 
 footer {
   background-color: rgb(227, 227, 227);
   font-size: 0.75rem;
-  text-align: center;
-  padding: 1rem;
-  display:block;
-  clear:both;
-  width: 100%
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer-content {
+  padding-bottom: 1rem;
+}
+
+.copyright {
+  float: left;
+  font-size: 0.9rem;
 }
 
 .fac-icon {
-  height: 1.5rem;
+  height: 1rem;
+  float: right;
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+.fa {
+  font-size: 1rem;
+  color: black;
+  float: right;
+  display: inline-block;
+  padding-left: 0.5rem;
 }
 
 .hti img {
