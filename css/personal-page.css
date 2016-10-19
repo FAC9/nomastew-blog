@@ -1,0 +1,103 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+html {
+  font-size: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+nav h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 100%;
+  text-align: justify;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 3rem;
+  width: 19%;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: inherit;
+}
+
+header h1 {
+  font-size: 3.0rem;
+}
+
+article {
+  padding: 2rem;
+  background-color: white;
+}
+
+article h2 {
+  font-size: 2.4rem;
+  padding: 1rem 0;
+}
+
+section p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+.hti {
+  float: left;
+}
+
+#about-me img {
+  border-radius: 50%;
+}
+
+#follow-me ul {
+  list-style-type: none;
+}
+
+#follow-me ul li {
+  display: inline;
+}
