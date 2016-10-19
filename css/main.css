@@ -77,6 +77,17 @@ header {
   display: block;
 }
 
+footer {
+  background-color: rgb(227, 227, 227);
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.fac-icon {
+  height: 1.5rem;
+}
+
 .hti img {
   max-width: 100%;
 }
