@@ -12,8 +12,9 @@ body {
 }
 
 article{
-  padding-bottom: 2rem;
-    padding-top: 5rem;
+  padding: 5rem 2rem 2rem 2rem;
+  max-width:800px;
+  margin:auto;
 }
 
 section{
@@ -32,16 +33,22 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
-p{
+section p{
   font-size: 1.25rem;
   line-height: 1.4;
+  padding: 1rem 0;
+}
+section a{
+  font-size:1.25rem;
 }
 /*Header*/
 
@@ -100,6 +107,9 @@ header {
 .profile img {
   border-radius: 50%;
   width: 100%;
+  float: left;
+  padding:0.5rem;
+  box-sizing: border-box;
 }
 
 .fac-blurb {
@@ -110,7 +120,9 @@ footer {
   background-color: rgb(227, 227, 227);
   font-size: 0.75rem;
   padding: 1rem 0;
-  position: absolute;
+/*  position: absolute;I'll explain why I needed
+to comment out this line! Nóri */
+  clear:both;
   bottom: 0;
   right: 0;
   left: 0;
