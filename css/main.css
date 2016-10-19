@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  position: relative;
   font-size: 0.875rem;
   font-family: 'Open Sans', sans-serif;
   line-height: normal;
@@ -93,12 +94,34 @@ header {
 footer {
   background-color: rgb(227, 227, 227);
   font-size: 0.75rem;
-  text-align: center;
-  padding: 1rem;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer-content {
+  padding-bottom: 1rem;
+}
+
+.copyright {
+  float: left;
 }
 
 .fac-icon {
-  height: 1.5rem;
+  height: 1rem;
+  float: right;
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+.fa {
+  font-size: 1rem;
+  color: black;
+  float: right;
+  display: inline-block;
+  padding-left: 0.5rem;
 }
 
 .hti img {
