@@ -96,9 +96,10 @@ box-sizing: border-box;
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.fa{
+#ppage{
   font-size: 2rem;
-}
-li a{
   color:#3399ff;
 }
+/*li a{
+  color:#3399ff;
+}*/
