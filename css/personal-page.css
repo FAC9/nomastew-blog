@@ -71,10 +71,16 @@ section p {
 
 .hti {
   float: left;
+padding:1rem;
+box-sizing: border-box;
 }
 
 #about-me img {
   border-radius: 50%;
+  width:30%;
+  height:auto;
+  margin: 0 auto;
+  display: block;
 }
 
 #follow-me ul {
@@ -83,4 +89,7 @@ section p {
 
 #follow-me ul li {
   display: inline;
+  font-size: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
