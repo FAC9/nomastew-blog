@@ -10,14 +10,14 @@ body {
   line-height: normal;
 }
 
-article{
+article {
   padding: 5rem 2rem 2rem 2rem;
   max-width: 800px;
   margin:auto;
   text-align: justify;
 }
 
-section{
+section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -50,7 +50,7 @@ section p {
 }
 
 section a {
-  font-size:1.25rem;
+  font-size: 1.25rem;
 }
 
 /*Header*/
@@ -159,13 +159,7 @@ box-sizing: border-box;
   text-align: center;
 }
 
-.read-more .arrow {
-  position: relative;
-  transition: left 0.5s;
-  font-size: 1.1rem;
-  left: 0px;
-}
-
+.read-more .arrow,
 .read-more-profile .arrow {
   position: relative;
   transition: left 0.5s;
@@ -173,7 +167,8 @@ box-sizing: border-box;
   left: 0px;
 }
 
-.read-more:hover .arrow {
+.read-more:hover .arrow,
+.read-more-profile:hover .arrow {
   left: 10px;
 }
 
