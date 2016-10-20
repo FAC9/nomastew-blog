@@ -1,4 +1,4 @@
-/*Topography*/
+﻿/*Topography*/
 
 html {
   font-size: 100%;
@@ -54,6 +54,7 @@ section a{
 
 .container-80 {
   width: 80%;
+  max-width: 800px;
   margin: auto;
 }
 
