@@ -13,7 +13,7 @@ body {
 
 article{
   padding: 5rem 2rem 2rem 2rem;
-  max-width:800px;
+  max-width: 800px;
   margin:auto;
 }
 
@@ -21,9 +21,7 @@ section{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/*div{
-  padding-bottom: 1rem;
-}*/
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -42,14 +40,16 @@ h3 {
   margin-bottom: 1rem;
 }
 
-section p{
+section p {
   font-size: 1.25rem;
   line-height: 1.4;
   padding: 1rem 0;
 }
-section a{
+
+section a {
   font-size:1.25rem;
 }
+
 /*Header*/
 
 .container-80 {
@@ -64,11 +64,22 @@ section a{
   padding: 1rem 0;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .logo {
   float: left;
   font-size: 1.3rem;
+}
+
+.fade-on-hover {
+  opacity: 1;
+  transition: opacity;
+  cursor: pointer;
+}
+
+.fade-on-hover:hover {
+  opacity: 0.6;
 }
 
 .menus {
@@ -88,8 +99,6 @@ section a{
 
 header {
   clear:both;
-  /*margin: 20px; */
-
   text-align: center;
 }
 
@@ -111,30 +120,36 @@ header {
 
 .profile img {
   border-radius: 50%;
+  height: 100%;
   width: 100%;
   float: left;
   padding:0.5rem;
   box-sizing: border-box;
 }
+
 .hti {
   float: left;
 padding:1rem;
 box-sizing: border-box;
 }
-/*.fac-blurb {
-  margin-bottom: 3rem;
-}*/
+
+.hti img {
+  max-width: 100%;
+}
 
 footer {
   background-color: rgb(227, 227, 227);
   font-size: 0.75rem;
   padding: 1rem 0;
-/*  position: absolute;I'll explain why I needed
-to comment out this line! Nóri */
   clear:both;
-  bottom: 0;
-  right: 0;
-  left: 0;
+}
+
+footer .fa {
+  font-size: 1rem;
+  color: black;
+  float: right;
+  display: inline-block;
+  padding-left: 0.5rem;
 }
 
 .footer-content {
@@ -152,16 +167,4 @@ to comment out this line! Nóri */
   display: inline-block;
   padding-left: 0.5rem;
   filter: grayscale(100%);
-}
-
-.fa {
-  font-size: 1rem;
-  color: black;
-  float: right;
-  display: inline-block;
-  padding-left: 0.5rem;
-}
-
-.hti img {
-  max-width: 100%;
 }
