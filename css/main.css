@@ -33,6 +33,7 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  clear:both;
 }
 
 h3 {
@@ -98,6 +99,10 @@ section a {
   height: 2rem;
   border-radius: 50%;
   border: solid black 1px;
+}
+
+#nori {
+  border: solid black 0.125rem;
 }
 
 header {
