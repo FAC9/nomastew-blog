@@ -1,13 +1,12 @@
 ﻿/*Topography*/
 
-html {
+/*html {
   font-size: 100%;
-}
+}*/
 
 body {
   position: relative;
-  font-size: 0.875rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: normal;
 }
 
@@ -24,9 +23,10 @@ section{
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
+  line-height: 1.2;
 }
 
 h2 {
@@ -38,11 +38,10 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
 }
 
 section p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.4;
   padding: 1rem 0;
 }
@@ -62,15 +61,17 @@ section a {
 
 .navigation {
   background-color: rgb(227, 227, 227);
-  padding: 1rem 0;
   position: fixed;
   top: 0;
   z-index: 10;
+  padding: 0.5rem 0;
 }
 
 .logo {
   float: left;
   font-size: 1.3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .fade-on-hover {
@@ -93,7 +94,7 @@ section a {
 }
 
 .mini-image {
-  height: 1.7rem;
+  height: 2rem;
   border-radius: 50%;
   border: solid black 1px;
 }
@@ -104,7 +105,7 @@ header {
 }
 
 .title {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 /*Main content*/
@@ -188,4 +189,8 @@ footer .fa {
 
 .read-more:hover .arrow {
   left: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  html { font-size: 120%; }
 }
