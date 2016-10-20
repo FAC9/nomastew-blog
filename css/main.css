@@ -53,6 +53,7 @@ section a{
 /*Header*/
 
 .container-80 {
+  max-width: 800px;
   width: 80%;
   max-width: 800px;
   margin: auto;
