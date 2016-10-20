@@ -13,7 +13,7 @@ body {
 
 article{
   padding: 5rem 2rem 2rem 2rem;
-  max-width:800px;
+  max-width: 800px;
   margin:auto;
 }
 
@@ -63,11 +63,22 @@ section a{
   padding: 1rem 0;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .logo {
   float: left;
   font-size: 1.3rem;
+}
+
+.fade-on-hover {
+  opacity: 1;
+  transition: opacity;
+  cursor: pointer;
+}
+
+.fade-on-hover:hover {
+  opacity: 0.6;
 }
 
 .menus {
@@ -79,8 +90,6 @@ section a{
   font-size: 1.3rem;
   padding-left: 0.5rem;
 }
-
-
 
 header {
   clear:both;
@@ -107,6 +116,7 @@ header {
 
 .profile img {
   border-radius: 50%;
+  height: 100%;
   width: 100%;
   float: left;
   padding:0.5rem;
