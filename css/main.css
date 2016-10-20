@@ -77,11 +77,14 @@ section a{
 
 .navigation-item {
   display: inline-block;
-  font-size: 1.3rem;
   padding-left: 0.5rem;
 }
 
-
+.mini-image {
+  height: 1.7rem;
+  border-radius: 50%;
+  border: solid black 1px;
+}
 
 header {
   clear:both;
@@ -148,7 +151,7 @@ to comment out this line! Nóri */
   float: right;
   display: inline-block;
   padding-left: 0.5rem;
-  filter: grayscale(100%);  
+  filter: grayscale(100%);
 }
 
 .fa {
