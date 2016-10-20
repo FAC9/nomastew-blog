@@ -1,4 +1,4 @@
-/*Topography*/
+﻿/*Topography*/
 
 html {
   font-size: 100%;
@@ -21,9 +21,7 @@ section{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/*div{
-  padding-bottom: 1rem;
-}*/
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -42,19 +40,22 @@ h3 {
   margin-bottom: 1rem;
 }
 
-section p{
+section p {
   font-size: 1.25rem;
   line-height: 1.4;
   padding: 1rem 0;
 }
-section a{
+
+section a {
   font-size:1.25rem;
 }
+
 /*Header*/
 
 .container-80 {
   max-width: 800px;
   width: 80%;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -87,14 +88,17 @@ section a{
 
 .navigation-item {
   display: inline-block;
-  font-size: 1.3rem;
   padding-left: 0.5rem;
+}
+
+.mini-image {
+  height: 1.7rem;
+  border-radius: 50%;
+  border: solid black 1px;
 }
 
 header {
   clear:both;
-  /*margin: 20px; */
-
   text-align: center;
 }
 
@@ -123,20 +127,29 @@ header {
   box-sizing: border-box;
 }
 
-.fac-blurb {
-  margin-bottom: 3rem;
+.hti {
+  float: left;
+padding:1rem;
+box-sizing: border-box;
+}
+
+.hti img {
+  max-width: 100%;
 }
 
 footer {
   background-color: rgb(227, 227, 227);
   font-size: 0.75rem;
   padding: 1rem 0;
-/*  position: absolute;I'll explain why I needed
-to comment out this line! Nóri */
   clear:both;
-  bottom: 0;
-  right: 0;
-  left: 0;
+}
+
+footer .fa {
+  font-size: 1rem;
+  color: black;
+  float: right;
+  display: inline-block;
+  padding-left: 0.5rem;
 }
 
 .footer-content {
@@ -153,16 +166,5 @@ to comment out this line! Nóri */
   float: right;
   display: inline-block;
   padding-left: 0.5rem;
-}
-
-footer .fa {
-  font-size: 1rem;
-  color: black;
-  float: right;
-  display: inline-block;
-  padding-left: 0.5rem;
-}
-
-.hti img {
-  max-width: 100%;
+  filter: grayscale(100%);
 }
