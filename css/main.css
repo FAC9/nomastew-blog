@@ -33,6 +33,7 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  clear: both;
 }
 
 h3 {
@@ -145,7 +146,23 @@ box-sizing: border-box;
   color: #3399ff;
 }
 
+.read-more-profile {
+  text-decoration: none;
+  color: #3399ff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
 .read-more .arrow {
+  position: relative;
+  transition: left 0.5s;
+  font-size: 1.1rem;
+  left: 0px;
+}
+
+.read-more-profile .arrow {
   position: relative;
   transition: left 0.5s;
   font-size: 1.1rem;
