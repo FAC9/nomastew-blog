@@ -84,7 +84,6 @@ section p {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-
 }
 
 #about-me ul li {
@@ -93,9 +92,13 @@ section p {
   padding-right: 1rem;
 }
 .ppage{
-  font-size: 2rem;
-  color:#3399ff;
+  font-size: 2rem !important;
+  color: black;
 }
 /*li a{
   color:#3399ff;
 }*/
+
+.codewars {
+  height: 2rem;
+}
