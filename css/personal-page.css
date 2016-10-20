@@ -95,10 +95,28 @@ box-sizing: border-box;
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.ppage{
+
+.ppage {
   font-size: 2rem;
   color:#3399ff;
 }
+
+.read-more {
+  text-decoration: none;
+  color:#3399ff;
+}
+
+.read-more .arrow {
+  position: relative;
+  transition: left 0.5s;
+  font-size: 1.1rem;
+  left: 0px;
+}
+
+.read-more:hover .arrow {
+  left: 10px;
+}
+
 /*li a{
   color:#3399ff;
 }*/
