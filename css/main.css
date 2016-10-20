@@ -10,14 +10,14 @@ body {
   line-height: normal;
 }
 
-article{
+article {
   padding: 5rem 2rem 2rem 2rem;
   max-width: 800px;
   margin:auto;
   text-align: justify;
 }
 
-section{
+section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -49,7 +49,7 @@ section p {
 }
 
 section a {
-  font-size:1.25rem;
+  font-size: 1.25rem;
 }
 
 /*Header*/
