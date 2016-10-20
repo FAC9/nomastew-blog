@@ -114,6 +114,16 @@ header {
   margin-bottom: 1.5rem;
 }
 
+.subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.catchy {
+  font-weight: bold;
+  color: #3399ff;
+}
+
 /*Main content*/
 
 .main-article {
