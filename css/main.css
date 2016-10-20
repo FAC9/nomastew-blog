@@ -1,23 +1,19 @@
 ﻿/*Topography*/
 
-/*html {
-  font-size: 100%;
-}*/
-
 body {
   font-size: 0.875rem;
   font-family: 'Dosis', sans-serif;
   line-height: normal;
 }
 
-article{
+article {
   padding: 5rem 2rem 2rem 2rem;
   max-width: 800px;
   margin:auto;
   text-align: justify;
 }
 
-section{
+section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -50,7 +46,7 @@ section p {
 }
 
 section a {
-  font-size:1.25rem;
+  font-size: 1.25rem;
 }
 
 /*Header*/
@@ -72,8 +68,11 @@ section a {
 .logo {
   float: left;
   font-size: 1.3rem;
+  font-weight: bold;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  color: #000;
+  text-decoration: none;
 }
 
 .fade-on-hover {
@@ -92,7 +91,7 @@ section a {
 
 .navigation-item {
   display: inline-block;
-  padding-left: 0.5rem;
+  padding-left: 0.4rem;
 }
 
 .mini-image {
@@ -112,6 +111,16 @@ header {
 
 .title {
   margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.catchy {
+  font-weight: bold;
+  color: #3399ff;
 }
 
 /*Main content*/
@@ -137,8 +146,8 @@ header {
 
 .hti {
   float: left;
-padding:1rem;
-box-sizing: border-box;
+  padding:1rem;
+  box-sizing: border-box;
 }
 
 .hti img {
@@ -157,15 +166,10 @@ box-sizing: border-box;
   font-weight: bold;
   padding-bottom: 0.5rem;
   text-align: center;
+  display: block;
 }
 
-.read-more .arrow {
-  position: relative;
-  transition: left 0.5s;
-  font-size: 1.1rem;
-  left: 0px;
-}
-
+.read-more .arrow,
 .read-more-profile .arrow {
   position: relative;
   transition: left 0.5s;
@@ -173,7 +177,8 @@ box-sizing: border-box;
   left: 0px;
 }
 
-.read-more:hover .arrow {
+.read-more:hover .arrow,
+.read-more-profile:hover .arrow {
   left: 10px;
 }
 
