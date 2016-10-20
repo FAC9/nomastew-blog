@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 768px) {
     /* For tablet: */
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
@@ -19,8 +19,7 @@
     .col-m-12 {width: 100%;}
 }
 
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
