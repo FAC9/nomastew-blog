@@ -1,9 +1,5 @@
 ﻿/*Topography*/
 
-/*html {
-  font-size: 100%;
-}*/
-
 body {
   font-size: 0.875rem;
   font-family: 'Dosis', sans-serif;
@@ -72,8 +68,11 @@ section a {
 .logo {
   float: left;
   font-size: 1.3rem;
+  font-weight: bold;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
+  color: #000;
+  text-decoration: none;
 }
 
 .fade-on-hover {
