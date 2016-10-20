@@ -76,7 +76,11 @@ section a {
 }
 
 .fade-on-hover {
-  opacity: 1;
+    opacity: 1;
+  -webkit-transition: opacity;
+  -moz-transition: opacity;
+  -ms-transition: opacity;
+  -o-transition: opacity;
   transition: opacity;
   cursor: pointer;
 }
@@ -96,12 +100,16 @@ section a {
 
 .mini-image {
   height: 2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
-  border: solid black 1px;
+  border: 1px solid #000;
 }
 
 #nori {
-  border: solid black 0.125rem;
+  border: 0.125rem solid #000 ;
 }
 
 header {
@@ -136,17 +144,29 @@ header {
 }
 
 .profile img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
   height: 100%;
   width: 100%;
   max-width: 240px;
   padding:0.5rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .hti {
   float: left;
   padding:1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -172,6 +192,10 @@ header {
 .read-more .arrow,
 .read-more-profile .arrow {
   position: relative;
+  -webkit-transition: left 0.5s;
+  -moz-transition: left 0.5s;
+  -ms-transition: left 0.5s;
+  -o-transition: left 0.5s;
   transition: left 0.5s;
   font-size: 1.1rem;
   left: 0px;
@@ -185,7 +209,7 @@ header {
 /*Footer*/
 
 #project1 {
-  border: solid black 1px;
+  border: 1px solid #000 ;
 }
 
 footer {
@@ -217,6 +241,10 @@ footer .fa {
   float: right;
   display: inline-block;
   padding-left: 0.5rem;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
