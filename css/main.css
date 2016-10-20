@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  position: relative;
   font-size: 0.875rem;
   font-family: 'Open Sans', sans-serif;
   line-height: normal;
@@ -56,7 +55,6 @@ section a {
 .container-80 {
   max-width: 800px;
   width: 80%;
-  max-width: 800px;
   margin: auto;
 }
 
@@ -123,13 +121,9 @@ header {
   border-radius: 50%;
   height: 100%;
   width: 100%;
-  float: left;
+  max-width: 240px;
   padding:0.5rem;
   box-sizing: border-box;
-}
-
-.col-12 {
-  clear: both;
 }
 
 .hti {
@@ -141,6 +135,24 @@ box-sizing: border-box;
 .hti img {
   max-width: 100%;
 }
+
+.read-more {
+  text-decoration: none;
+  color: #3399ff;
+}
+
+.read-more .arrow {
+  position: relative;
+  transition: left 0.5s;
+  font-size: 1.1rem;
+  left: 0px;
+}
+
+.read-more:hover .arrow {
+  left: 10px;
+}
+
+/*Footer*/
 
 footer {
   background-color: rgb(227, 227, 227);
@@ -172,20 +184,4 @@ footer .fa {
   display: inline-block;
   padding-left: 0.5rem;
   filter: grayscale(100%);
-}
-
-.read-more {
-  text-decoration: none;
-  color: #3399ff;
-}
-
-.read-more .arrow {
-  position: relative;
-  transition: left 0.5s;
-  font-size: 1.1rem;
-  left: 0px;
-}
-
-.read-more:hover .arrow {
-  left: 10px;
 }
