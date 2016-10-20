@@ -113,10 +113,14 @@ header {
   padding:0.5rem;
   box-sizing: border-box;
 }
-
-.fac-blurb {
-  margin-bottom: 3rem;
+.hti {
+  float: left;
+padding:1rem;
+box-sizing: border-box;
 }
+/*.fac-blurb {
+  margin-bottom: 3rem;
+}*/
 
 footer {
   background-color: rgb(227, 227, 227);

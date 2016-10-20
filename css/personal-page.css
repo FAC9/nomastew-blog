@@ -69,11 +69,7 @@ section p {
   margin: 1rem 0;
 }*/
 
-.hti {
-  float: left;
-padding:1rem;
-box-sizing: border-box;
-}
+
 
 #about-me img {
   border-radius: 50%;
@@ -96,7 +92,7 @@ box-sizing: border-box;
   padding-right: 1rem;
 }
 .ppage{
-  font-size: 2rem;
+  font-size: 2rem !important;
   color: black;
 }
 /*li a{
