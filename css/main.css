@@ -38,6 +38,8 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
+  padding-bottom: 0.5rem;
+  text-align: center;
 }
 
 section p {
@@ -141,6 +143,10 @@ box-sizing: border-box;
 
 .hti img {
   max-width: 100%;
+}
+
+#project1 {
+  border: solid black 1px;
 }
 
 footer {
