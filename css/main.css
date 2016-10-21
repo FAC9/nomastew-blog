@@ -112,11 +112,6 @@ section a {
   border: 0.125rem solid #000 ;
 }
 
-header {
-  clear:both;
-  text-align: center;
-}
-
 .title {
   margin-bottom: 1.5rem;
 }
@@ -124,11 +119,13 @@ header {
 .subtitle {
   font-size: 1.5rem;
   font-style: italic;
+  text-align: center;
 }
 
 .catchy {
   font-weight: bold;
-  color: #3399ff;
+  text-align: center;
+  color: #275b2a;
 }
 
 /*Main content*/
