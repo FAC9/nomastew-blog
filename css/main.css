@@ -241,11 +241,6 @@ footer .fa {
   float: right;
   display: inline-block;
   padding-left: 0.5rem;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 @media only screen and (min-width: 768px) {
