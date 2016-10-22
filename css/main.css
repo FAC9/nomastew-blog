@@ -76,7 +76,7 @@ section a {
 }
 
 .fade-on-hover {
-    opacity: 1;
+  opacity: 1;
   -webkit-transition: opacity;
   -moz-transition: opacity;
   -ms-transition: opacity;
